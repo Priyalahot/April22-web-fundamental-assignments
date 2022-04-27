@@ -1,0 +1,183 @@
+#home{
+    background-image: url("https://wallpaper.dog/large/20491977.jpg");
+    background-size: cover;
+    height: 100vh;
+    width:100%;
+}
+header{
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    /* z-index: 999; */
+}
+a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 20px;
+    
+}
+a:hover{
+    background-color: black;
+    
+}
+.welcome{
+    background-color: rgba(255, 255, 255, 0.4);
+    margin-top: 90px;
+    position: absolute;
+ 
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    width: 450px;
+    height: 400px;
+    padding: 20px;
+}
+h1{
+    text-align: center;
+}
+caption{
+    background-color:black;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    width: 100%;
+    
+}
+.fastfood{
+    width: 100%; 
+    padding: 20px;
+    float: left;
+    margin-top: 80px;
+    
+}
+h3{
+    color: white;
+}
+ul li {
+    color: white;
+}
+#menu{
+    background-color: black;
+    height: 100%;
+    width:100%;
+}
+.image{
+    height: 200px;
+    width: 300px;
+
+}
+#indian{
+    padding:20px;
+    margin: 4px;
+   
+}
+#about{
+    background-image: url("https://www.ppt-backgrounds.net/thumbs/black-gold-and-wood-photo-templates.jpeg");
+    height: 100vh;
+    width: 100%; 
+
+}
+.aboutimg{
+    background-color: rgba(0, 0, 0, 0.4);
+    height:100vh;
+    width: 100%;
+  
+   
+}
+.info{
+    
+    float: left;
+    height: 500px;
+    width: 500px;
+    margin-top: 70px;
+    margin-left: 50px;
+    padding: 30px;
+    font-size: 20px;
+    
+}
+img{
+    padding-left: 4px;
+    margin-top: 60px;
+}
+html{
+    scroll-behavior: smooth;
+}
+h2{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+#contact{
+    background-image: url("https://b.zmtcdn.com/mx-onboarding-hero87f77501659a5656cad54d98e72bf0d81627911821.webp");
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    
+}
+#contact-table{
+    width: 100%;
+    padding: 8px;
+    padding-right: 20px;
+    
+}
+
+#table-div{
+    background-color: rgba(255, 255, 225, 0.4);
+    position: absolute;
+    margin-top: 10%;
+    padding: 10px;
+    width: 50%;   
+    margin-left: 5%;
+    height: 60%;
+   
+
+    
+}
+#footer{
+    height: 200px;
+    width: 100%;
+    background-color: brown;
+}
+
+
+
+
+
+
+
+
+
+#hh3{
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 0;
+}
+
+.input-style{
+    padding: 6px;
+    width: 100%;
+    border: 1px solid rgb(58, 57, 57);
+    font-family: sans-serif;
+}
+button{
+    padding: 6px;
+    width: 15%;
+
+}
+.logo{
+    height: 60px;
+    width: 60px;
+}
+#share{
+    position: absolute;
+    margin-top: 40%;
+    margin-left: 10%;
+}
+#mail{
+    position: absolute;
+    margin-top: 40%;
+    margin-left: 40%;
+}

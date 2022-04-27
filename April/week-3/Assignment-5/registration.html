@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Document</title>
+    <style>
+        #main {
+            padding: 20px;
+            /* border: 1px solid black; */
+            width: 30%;
+            margin: auto;
+            margin-top: 40px;
+
+        }
+
+        #btn {
+            text-align: center;
+            /* margin-left: 35%; */
+            padding: 8px;
+            /* width: 25%; */
+            background-color: rgb(53, 192, 211);
+        }
+
+        #heading {
+            text-align: center;
+            font-size: 20px;
+        }
+
+        table {
+            padding: 8px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="main">
+        <div id="heading">
+            <p>Registration Form</p>
+        </div>
+        <form>
+            <table cellspacing="9" frame="box">
+                <tr>
+                    <td><label for="fname">First Name: </label></td>
+                    <td><input type="text" name="fname" id="fname" /></td>
+                </tr>
+                <tr>
+                    <td><label for="lname">Last Name: </label></td>
+                    <td> <input type="text" name="lanme" id="lname" /></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email : </label></td>
+                    <td> <input type="email" name="email" id="email" /></td>
+                </tr>
+                <tr>
+                    <td><label for="phone">Mobile Number : </label></td>
+                    <td><input type="text" name="phone" id="phone" /></td>
+                </tr>
+                <tr>
+                    <td><label for="gender">Gender:</label></td>
+                    <td><input type="radio" name="gender" id="gender" value="male">Male</input>
+                        <input type="radio" name="gender" id="dender" value="female">Female</input>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="address">Address : </label></td>
+                    <td> <textarea name="address" id="address" cols="30" rows="7"></textarea><br><br></td>
+                </tr>
+                <tr>
+                    <td></td>
+
+                    <td><button type="submit" id="btn">Register</button></td>
+                </tr>
+            </table>
+
+
+
+
+
+        </form>
+    </div>
+</body>
+
+</html>

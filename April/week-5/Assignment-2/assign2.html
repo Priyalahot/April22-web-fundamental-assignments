@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            background-color: rgb(156, 221, 216);
+        }
+        .image {
+            float: left;
+            margin-top: 80px;
+            margin-left: 80px;
+            border-radius: 50%;
+            height: 300px;
+            width: 300px;
+            background-color: rgb(255, 255, 255);
+        }
+        #container{
+            height: 100vh;
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.4);
+        }
+        #para{
+            text-indent: 40px;
+            float: right;
+            width: 700px;
+            padding: 10px;
+            margin-top: 80px;
+            font-family:'Times New Roman', Times, serif;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+    <div id="d1">
+        <img src="data:image/png;base64,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"
+            class="image">
+    </div>
+    <div id="para">
+
+        <p>
+            JavaScript (JS) is a lightweight, interpreted, or just-in-time compiled programming language with first-class functions. While it is most well-known as the scripting language for Web pages, many non-browser environments also use it, such as Node.js, Apache CouchDB and Adobe Acrobat. JavaScript is a prototype-based, multi-paradigm, single-threaded, dynamic language, supporting object-oriented, imperative, and declarative (e.g. functional programming) styles. Read more about JavaScript.
+
+This section is dedicated to the JavaScript language itself, and not the parts that are specific to Web pages or other host environments. For information about API specifics to Web pages, please see Web APIs and DOM.</p>
+
+<p>The standards for JavaScript are the ECMAScript Language Specification (ECMA-262) and the ECMAScript Internationalization API specification (ECMA-402). The JavaScript documentation throughout MDN is based on the latest draft versions of ECMA-262 and ECMA-402. And in cases where some proposals for new ECMAScript features have already been implemented in browsers, documentation and examples in MDN articles may use some of those new features.</p>
+
+<p>Do not confuse JavaScript with the Java programming language. Both "Java" and "JavaScript" are trademarks or registered trademarks of Oracle in the U.S. and other countries. However, the two programming languages have very different syntax, semantics, and use.</p>
+
+
+        </p>
+
+    </div>
+
+</div>
+</body>
+
+</html>
