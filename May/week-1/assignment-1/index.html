@@ -1,1 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+   <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+    <div class="main-container">
+        <!-- navbar section -->
+        <div class="navbar">
+            <ul>
+                <li>
+                    <a href="#home">Home</a>
+                </li>
+                <li>
+                    <a href="#about">About</a>
+                </li>
+                <li>
+                    <a href="#skills">Skills</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <!-- banner section -->
+        <div class="container banner" id="home">
+            <div class="image">
+                <img src="https://img.freepik.com/free-vector/woman-computer-illustration_33099-601.jpg?t=st=1652075850~exp=1652076450~hmac=af2f0f0385b066c84e7ea574284e8625e234aeaae43422ce73fd3d5a3438e0b1&w=740" alt="banner image">
+            </div>
+            <div class="content">
+                <p class="title">
+                    Hey! I'm <span>Priya Lahot</span>
+                </p>
+                <p class="desc">I am a Software Developer </p>
+                <button class="btn" hre="#about">About Me</button>
+                
 
+            </div>
+
+        </div>
+        <!-- banner end -->
+
+        <!-- about section -->
+        <div class="container about" id="about">
+            
+            <div class="content">
+                <p class="title">
+                    <span>About Me</span>
+                </p>
+                <p class="desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure accusantium possimus enim asperiores excepturi voluptates, explicabo veritatis. Sequi tenetur tempora vitae consectetur, officia placeat! Consequuntur nostrum aliquid, enim provident vitae rerum harum expedita in temporibus porro odio! Neque totam praesentium ipsum itaque mollitia, cumque quisquam delectus possimus laborum, recusandae inventore? </p>
+            </div>
+            <div class="image">
+                <img src="https://img.freepik.com/free-vector/flat-design-young-girl-programmer-working_23-2148267156.jpg?t=st=1652076070~exp=1652076670~hmac=086f2cc5a3b6895a89ababd94a3feaed5949d39610c389bf83d7f29adf8b0bb6&w=740" alt="banner image">
+            </div>
+
+        </div>
+        <div class="container skills" id="skills">
+            
+            <div class="content">
+                <p class="title">
+                    <span>Skills</span>
+                </p>
+                <div class="grid-container">
+                    <div class="grid-item"><i class="fa-brands fa-html5"></i>HTML</div>
+                    <div class="grid-item"><i class="fa-brands fa-css3"></i>CSS</div>
+                    <div class="grid-item"><i class="fa-brands fa-bootstrap"></i>Bootstrap</div>
+                    <div class="grid-item"><i class="fa-brands fa-js"></i>Javascript</div>
+                </div>
+              </div>
+            
+
+        </div>
+        <div class="container contact" id="contact">
+           
+            <div class="content">
+                <p class="title">
+                    <span>Get in touch with me here</span>
+                    
+                </p>
+                <form action="#" class="form">
+                     <div class="field">
+                         <label for="email"class="title">Email Id:</label><br>
+                         <input type="email" id="email" name="email" value="name@gmai.com" class="input">
+
+                     </div>   
+                     <div class="field">
+                        <label for="message"class="title">Message:</label><br>
+                        <textarea name="message" id="message" cols="30" rows="5" class="input"></textarea><br>
+                        <button class="btn "type="submit" value="submit" class="btn">Submit</button>
+                    </div>   
+                </form>
+                
+              </div>
+            
+
+        </div>
+        <!-- footer -->
+        <div class="footer">
+            <div class="footer-title">
+                <h2>Priya Lahot</h2>
+            </div>
+            <div class="social-sites">
+                <div class="footer-icons">
+                    <a href="#" class="icon">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="#" class="icon">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                    <a href="#" class="icon">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <p>&copy;</span>copyright all rights reserved</p>
+                    <script>
+                        var d = new Date();
+                        var n = d.getFullyear();
+                        document.getElementById("year").innerHTML=n;
+                    </script>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
