@@ -1,0 +1,37 @@
+.container{
+    margin: 100px auto;
+    background:linear-gradient(15deg , rgb(63, 217, 238),rgb(50, 139, 151),rgb(150, 220, 230)) ;
+    height: 300px;
+    width: 700px;
+    padding: 10px;
+    box-shadow: 0 0 10px 2px black ;
+}
+h1{
+    text-align: center;
+    margin-top: 10%;
+    display: inline !important;
+}
+.btn{
+    width: 15%;
+    height: 15%;
+    padding: 2px;
+    border-radius: 8px;
+    margin-left: 2%;
+    background-color: rgb(43, 32, 23);
+    color: white;
+    font-weight: bold;
+}
+#gmbtn{
+    margin-left: 25%;
+}
+.btn:hover{
+    background-color: wheat;
+    color: black;
+}
+.a{
+    margin-top: 85px;
+    text-align: center;
+}
+#emoji{
+    font-size: 39px;
+}
